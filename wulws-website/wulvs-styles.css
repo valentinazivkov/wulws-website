@@ -1,0 +1,263 @@
+@charset "utf-8";
+body {
+    margin: 0px;
+    background-image: url(images/lines-bg.png);
+}
+body, td, th {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#content {
+	width: 767px;
+	float: left;
+	padding-left: 11px;
+	border-right: 1px solid #ac1307;
+	border-left: 1px solid #ac1307;
+}
+#content p {
+	padding-right: 8px;
+}
+#content table {
+	width: 757px;
+}
+#content table, td, th {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	padding-left: 13px;
+	padding-right: 9px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#content table .column1 {
+	width: 250px;
+	color: #AC1307;
+	font-size: 120%;
+	background-color: #fcd04c;
+}
+#content table .column2 {
+	color: #AC1307;
+	font-size: 120%;
+	background-color: #fcd04c;
+}
+#content table tr:nth-child(odd) {
+	background-color: #C8C8C8;
+}
+#contact-form {
+	border: 1px solid #000000;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#contact-form p #phone {
+	margin-left: 72px;
+}
+#contact-form p #email {
+	margin-left: 4px;
+}
+#contact-form p #name {
+	margin-left: 24px;
+}
+#contact-form p #subject {
+	margin-left: 50px;
+}
+#contact-form label {
+	padding-left: 17px;
+}
+#contact-form #submit {
+	margin-left: 137px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#contact-form p #textarea {
+	margin-left: 8px;
+	vertical-align: top;
+}
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	background-image: url(images/container-bg-gold-lines.png);
+	background-repeat: repeat-y;
+	border-left: 1px solid #ac1307;
+}
+#container #content h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 134%;
+}
+#container #content h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 109%;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	background-color: #FCD04C;
+	border: 1px solid #ac1307;
+}
+#header {
+	text-align: center;
+	background-color: #FCD04C;
+	border-right-color: #ac1307;
+	border-bottom-color: #ac1307;
+	border-top-color: #ac1307;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	margin-top: 0px;
+	background-image: url(images/argyle-bg.png);
+	background-repeat: repeat;
+	height: 130px;
+}
+#sidebar {
+	float: left;
+	width: 160px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#sidebar p img {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 21px;
+}
+.side-advert p a img {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+#footer ul {
+	list-style-type: none;
+	padding-top: 0px;
+}
+#footer ul li {
+	display: inline;
+}
+#header-name {
+	margin-top: 0px;
+	font-family: amatic-sc, "Gill Sans MT Condensed", "Gill Sans MT", "Arial Narrow", Arial;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 33px;
+}
+#header-tagline {
+	margin-bottom: 0px;
+	color: #1B1B1B;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	margin-top: -28px;
+}
+.characters img {
+	float: left;
+	clear: both;
+	padding-right: 28px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+    /*These rules define the character boxes*/
+.characters {
+	clear: both;
+	float: left;
+	padding-right: 14px;
+	margin-right: 10px;
+	border: 1px solid #000000;
+	margin-bottom: 15px;
+}
+.float-left {
+    float: left;
+    clear: both;
+    padding: 5px;
+}
+.float-left-header {
+	float: left;
+	clear: both;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+.float-right {
+    float: right;
+    clear: right;
+    padding: 5px;
+}
+.float-right-header {
+	float: right;
+	clear: right;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+    /**/
+.sitenav {
+}
+.sitenav ul {
+	list-style-type: none;
+}
+.sitenav ul li a:link, a:visited {
+	display: block;
+	text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 18px;
+	border: 1px solid #AC1307;
+	border-radius: 10px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 2px;
+	background-color: #FCD04C;
+}
+.sitenav ul li a:hover, a:active {
+	display: block;
+	background-color: #FEF4D5;
+}
+#sidebar .side-advert p a:link, a:visited {
+	text-decoration: none;
+	color: #5D0A03;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#sidebar .side-advert p a:hover, a:active {
+	text-decoration: underline;
+}
+.sitenav ul li {
+	width: 160px;
+	margin-left: -40px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+.required {
+	color: #F30105;
+	font-weight: bold;
+}
+#sidebar .side-advert {
+	background-color: #FFFFFF;
+	border: 1px solid #AC1307;
+	border-radius: 8px;
+	width: 160px;
+	min-height: 234px;
+}
+#sidebar .side-advert p {
+	text-align: center;
+}
+.characters h3 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 145%;
+}
+#footer ul li a {
+	color: #ac1307;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+.centeritem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
